@@ -19,4 +19,18 @@
       <value>Москва</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="52d0bf43-54e1-4b4a-811d-9088100053dd">
+    <name>Киров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Киров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0717b7d-3a66-47f8-b45f-46c4d1293fc7">
+    <name>Тюмень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тюмень</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
