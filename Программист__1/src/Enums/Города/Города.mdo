@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e14a206-af0e-4520-b901-961fa731f387">
+  <producedTypes>
+    <refType typeId="b0fbbaa7-1fc2-441e-acdf-1fa3c0809a4c" valueTypeId="1e15f748-c5e3-4639-a953-16edf195fd09"/>
+    <listType typeId="0dfe6b36-3b29-4b3d-a896-e610fadf6d64" valueTypeId="8d6cc503-a385-4c8a-8084-54c48e7acb02"/>
+    <managerType typeId="91076a8c-134e-4a22-8bb4-47405eec72a8" valueTypeId="a33b194c-f9d7-40e5-9bf4-e22ea70a994f"/>
+  </producedTypes>
+  <name>Города</name>
+  <synonym>
+    <key>ru</key>
+    <value>Города</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="de82db29-b512-47c5-8952-e932d07b12dc">
+    <name>Москва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Москва</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
