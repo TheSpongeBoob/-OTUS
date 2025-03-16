@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec27045c-6036-4de2-865d-8b50ef5c3e77">
+  <producedTypes>
+    <objectType typeId="1e1b0623-bee1-4196-846f-0871e8083d1d" valueTypeId="0a964c97-aa29-4c52-a001-9c4cd91673a5"/>
+    <refType typeId="3e9c0d7a-7769-4c14-9331-0df6862a8fcd" valueTypeId="221d9d4d-0e35-4452-8601-cdcb81465a89"/>
+    <selectionType typeId="56abbd65-59e2-42e5-aad0-24d95d1cebd8" valueTypeId="e6702eb3-e904-42a3-b518-ea7fc99cffa0"/>
+    <listType typeId="95f52206-0d78-42c3-98e8-ec580f51ffbb" valueTypeId="006e7cfe-ad5d-4fe4-a847-db6c8a6f4c18"/>
+    <managerType typeId="35afbb56-4f88-472e-ac86-553ca98c2df4" valueTypeId="991d7ce6-aefd-44de-889e-44e60ea7a95c"/>
+  </producedTypes>
+  <name>АвтомобилиКомпании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автомобили компании</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.АвтомобилиКомпании.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.АвтомобилиКомпании.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="57bef0c0-219c-4532-9a52-a1b036274009">
+    <producedTypes>
+      <objectType typeId="32e64c1c-8d86-4f9d-952c-bd6a245bed92" valueTypeId="762dd336-983c-4dcd-9a8e-88aae1bdce89"/>
+      <rowType typeId="6b22e2de-e4a9-498b-bb9f-6947415247de" valueTypeId="4497f945-e3f3-4081-ae6f-8106c9d0419c"/>
+    </producedTypes>
+    <name>СписокАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список авто</value>
+    </synonym>
+    <attributes uuid="12b751d5-6d31-4e02-8adf-e01507841254">
+      <name>Марка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Марка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>
