@@ -30,6 +30,21 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2f9c15f9-7c32-4018-b3bc-13171c92ae1c">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="57bef0c0-219c-4532-9a52-a1b036274009">
     <producedTypes>
       <objectType typeId="32e64c1c-8d86-4f9d-952c-bd6a245bed92" valueTypeId="762dd336-983c-4dcd-9a8e-88aae1bdce89"/>
@@ -51,6 +66,23 @@
         <stringQualifiers>
           <length>10</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9d903537-6df8-4a5a-911d-9f03f877aefc">
+      <name>ГодВыпуска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Год выпуска</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
